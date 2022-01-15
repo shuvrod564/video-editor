@@ -1,0 +1,28 @@
+
+.hero__heading {
+    font-weight: 700; 
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.service__item {
+    box-shadow: 0 10px 35px 0 rgba(0,0,0,.09);
+    display: block;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    font-size: 1.12rem;
+    text-transform: capitalize; 
+
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+}
+
+.serviceCol {
+    flex: 0 0 20%;
+    width: 20%;
+}

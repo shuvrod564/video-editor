@@ -1,0 +1,24 @@
+
+
+.nav-link {
+    padding: 1rem !important;
+
+    &.btn-outline-primary {
+        padding: 0rem .75rem !important; 
+        height: 2rem;
+        color: var(--brand) !important;
+        display: inline-flex;
+        align-items: center;
+        font-size: .925rem;
+        &:hover {
+            background-color: var(--brand-light);
+            color: #fff !important;
+        }
+    }
+}
+
+// .navbar-brand {
+//     img {
+//         height: 30px;
+//     }
+// }

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+    --brand: #3291ff;
+    --brand-light: #1983ff;
+    --yellow: #ffde00;
+    --orange: #FD5900;
+    --dark: #262628;
+    --inter: 'Inter', sans-serif; 
+    --heading: 'Maven Pro', sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+    font-family: var(--inter);
+    color: var(--dark);
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+
+a {
+    color: var(--dark);
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.btn:focus, .form-select:focus, 
+.form-control:focus,
+.form-check-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+// 006DF0 rgba(0, 215, 223, 1) rgba(0, 63, 138, 1)

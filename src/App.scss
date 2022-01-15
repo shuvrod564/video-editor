@@ -1,0 +1,62 @@
+
+
+@import "./variables";
+
+
+.upload__box {
+    position: relative;
+    .form-control {
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        position: absolute;
+    }
+    .form-label {
+        width: 13rem;
+        height: 4rem;
+        background-color: var(--brand);
+        border-radius: .25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        color: #fff;
+        margin: 2rem  auto;
+        cursor: pointer;
+
+        &::before {
+            content: "\002B";
+            width: 24px;
+            height: 24px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            margin-right: .75rem;
+            font-size: 1.5rem;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 3px;
+            background-color: #fff;
+            color: var(--brand);
+        }
+
+        &:hover {
+            background-color: var(--brand-light);
+        }
+    }
+}
+
+.player-wrapper {
+    position: relative;
+    // padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */ 
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+}
+   
+//   .react-player {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
